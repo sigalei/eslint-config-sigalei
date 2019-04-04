@@ -1,55 +1,45 @@
 module.exports = {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["jsx-a11y", "import", "prettier"],
-  "env": {
-    "node": true,
-    "es6": true
+  extends: ['airbnb', 'prettier'],
+  plugins: ['jsx-a11y', 'import', 'prettier'],
+  env: {
+    node: true,
+    es6: true
   },
-  "parserOptions": {
-    "sourceType": "module"
+  parserOptions: {
+    sourceType: 'module'
   },
-  "rules": {
-    "no-unused-vars": [
-      "error",
-      { "argsIgnorePattern": "obj|args|context|info" }
-    ],
-    "curly": ["error", "all"],
-    "no-console": 0,
-    "comma-dangle": 0,
-    "class-methods-use-this": 0,
-    "max-len": [
+  rules: {
+    'no-unused-vars': ['error', { argsIgnorePattern: 'obj|args|context|info' }],
+    curly: ['error', 'all'],
+    'no-console': 0,
+    'comma-dangle': 0,
+    'class-methods-use-this': 0,
+    'max-len': [
       2,
       100,
       2,
       {
-        "ignoreUrls": true
+        ignoreUrls: true
       }
     ],
-    "generator-star-spacing": 0,
-    "no-underscore-dangle": [
-      "error",
+    'generator-star-spacing': 0,
+    'no-underscore-dangle': [
+      'error',
       {
-        "allow": [
-          "_id",
-          "_source",
-          "_fields",
-          "_values",
-          "_enumConfig",
-          "_name"
-        ]
+        allow: ['_id', '_source', '_fields', '_values', '_enumConfig', '_name']
       }
     ],
-    "no-plusplus": [
-      "error",
+    'no-plusplus': [
+      'error',
       {
-        "allowForLoopAfterthoughts": true
+        allowForLoopAfterthoughts: true
       }
     ],
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
-        "singleQuote": true,
-        "printWidth": 80
+        singleQuote: true,
+        printWidth: 80
       }
     ]
   }
