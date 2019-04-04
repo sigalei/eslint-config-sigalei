@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-sigalei",
+  "version": "1.0.1",
+  "description": "sigalei node linter rules",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:sigalei/eslint-config-sigalei.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^6.3.0",
+    "prettier": "1.16.4"
+  }
+}
