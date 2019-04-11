@@ -26,7 +26,7 @@ module.exports = {
     'no-underscore-dangle': [
       'error',
       {
-        allow: ['_id', '_source', '_fields', '_values', '_enumConfig', '_name', '_score']
+        allow: ['_id', '_source', '_fields', '_values', '_enumConfig', '_name', '_score', '_type']
       }
     ],
     'no-plusplus': [
