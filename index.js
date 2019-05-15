@@ -9,6 +9,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    "max-lines-per-function": ["error", { "max": 25 }],
     'no-unused-vars': ['error', { argsIgnorePattern: 'obj|args|context|info' }],
     curly: ['error', 'all'],
     'no-console': 0,

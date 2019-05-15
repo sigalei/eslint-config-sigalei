@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sigalei",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "sigalei node linter rules",
   "main": "index.js",
   "license": "MIT",
