@@ -1,15 +1,16 @@
 module.exports = {
-  extends: ['airbnb', 'prettier'],
-  plugins: ['jsx-a11y', 'import', 'prettier'],
+  extends: ['airbnb', 'prettier', 'plugin:jest/recommended'],
+  plugins: ['jsx-a11y', 'import', 'prettier', 'jest'],
   env: {
     node: true,
-    es6: true
+    es6: true,
+    'jest/globals': true
   },
   parserOptions: {
     sourceType: 'module'
   },
   rules: {
-    "max-lines-per-function": ["error", { "max": 25 }],
+    'max-lines-per-function': ['error', { 'max': 25 }],
     'no-unused-vars': ['error', { argsIgnorePattern: 'obj|args|context|info' }],
     curly: ['error', 'all'],
     'no-console': 0,
